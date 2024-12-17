@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>RGB Color Generator</h1>
+        <div class="color-box">
+            <div class="color-preview" id="colorDisplay"></div> 
+            <div class="slider">
+                <label for="red">Red:</label>
+                <span id="redValue">0</span> 
+                <input type="range" id="red" min="0" max="255" value="0" oninput="updateColor()"> 
+            </div>
+            <div class="slider">
+                <label for="green">Green:</label>
+                <span id="greenValue">0</span> 
+                <input type="range" id="green" min="0" max="255" value="0" oninput="updateColor()">
+            </div>
+            <div class="slider">
+                <label for="blue">Blue:</label>
+                <span id="blueValue">0</span> 
+                <input type="range" id="blue" min="0" max="255" value="0" oninput="updateColor()">
+            </div>
+            <div>
+                <button onclick="copyRGBCode()">Copy RGB Code</button>
+                <button onclick="resetSliders()">Reset</button> 
+                <p id="rgbCode" class="rgb-code"></p> 
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <p>&copy; 2024 RGB Color Generator | Time Pass</p> <!-- Updated year -->
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

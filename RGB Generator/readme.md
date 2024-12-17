@@ -1,3 +1,6 @@
 # RGB Generator
 
-- A small yet effective website which will help you to customize colors using the RGB color model.
+- A simple web tool that allows users to generate and preview RGB colors by adjusting sliders for red, green, and blue values. 
+- It also supports copying the RGB code and resetting sliders.
+
+- Link: 

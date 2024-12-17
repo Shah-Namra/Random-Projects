@@ -7,8 +7,6 @@ function updateColor() {
     const rgbCode = document.getElementById('rgbCode');
     
     colorDisplay.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
-    
-    
     rgbCode.textContent = `RGB(${red}, ${green}, ${blue})`;
     
     document.getElementById('redValue').textContent = red;
@@ -32,4 +30,8 @@ function resetSliders() {
     document.getElementById('green').value = 0;
     document.getElementById('blue').value = 0;
     updateColor();
+}
+
+function toggleTheme() {
+    document.body.classList.toggle('dark-theme');
 }

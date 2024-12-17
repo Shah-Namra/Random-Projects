@@ -1,12 +1,14 @@
+/* Default Light Theme */
 body {
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease, color 0.3s ease;
     display: flex;
     justify-content: center;
     align-items: center;  
     height: 100vh; 
     margin: 0;
     background-color: #f0f0f0; 
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
+    color: #333;
 }
 
 .container {
@@ -67,4 +69,43 @@ button:hover {
 .footer p {
     margin: 0;
     font-size: 14px;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-theme .color-box {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+}
+
+body.dark-theme button {
+    background-color: #4caf50;
+}
+
+body.dark-theme button:hover {
+    background-color: #388e3c;
+}
+
+body.dark-theme .footer {
+    background-color: #2c2c2c;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+body.dark-theme .theme-toggle {
+    color: #e0e0e0;
 }

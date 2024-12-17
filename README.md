@@ -4,14 +4,14 @@
 
 Projects
 1. RGB Generator
-A simple tool to create RGB color codes.
-Link: 
+A simple tool to create RGB color codes. Also Include Dark and Light Theme
+Link: [RGB Generator][https://rgbgenerator-chi.vercel.app/]
 
 2. Birthday Generator
-A fun app that tries to guess a birthday randomly. It's just for fun!
-Link: Birthday Generator
+A fun app that tries to guess a birthday randomly. It's just for fun! ( Also Include Dark and Light Theme)
+Link: [Birthday Generator][https://bday-guess.vercel.app/]
 
-3. Chatbot
+3. Chatbot Prototype
 An early version of my college project. This chatbot helps students find study materials all in one place.
-Link: Chatbot
+Link: [Chatbot Prototype][https://chatbot-beta-pink.vercel.app/]
 
